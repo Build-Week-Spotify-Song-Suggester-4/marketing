@@ -1,3 +1,8 @@
+* {
+ font-family: 'Noto Sans TC';
+ 
+}
+
 a {
   font-style: italic;
 }
@@ -21,11 +26,14 @@ img {
   color: white;
   margin: 4rem;
   margin-top: 4rem;
+  
+  
 }
 footer {
-  border: 3px solid red;
+  border:3px solid black;
   height: 10rem;
 }
 .footer {
+  margin-top: 4rem;
   text-align: center;
 }
