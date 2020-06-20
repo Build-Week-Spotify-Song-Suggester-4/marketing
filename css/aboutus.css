@@ -1,0 +1,29 @@
+.header{
+    border: 3px solid black;
+    height:10rem;
+    background-image: url(https://hdwallsource.com/img/2014/12/turquoise-wallpaper-6918-7174-hd-wallpapers.jpg);
+    background-size:cover;
+    
+}
+
+
+
+
+
+
+
+.footer a {
+    color:black;
+    margin: 4rem;
+    margin-top: 4rem;
+    
+    
+  }
+  footer {
+    border:3px solid turquoise;
+    height: 10rem;
+  }
+  .footer {
+    margin-top: 4rem;
+    text-align: center;
+  }
