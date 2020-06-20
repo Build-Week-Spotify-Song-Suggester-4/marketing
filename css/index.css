@@ -1,3 +1,8 @@
+* {
+ font-family: 'Noto Sans TC';
+ 
+}
+
 a {
   font-style: italic;
 }
@@ -11,9 +16,24 @@ img {
   width: 500px;
   height: 500px;
 }
-.how img{
+.how {
   float: right;
 }
 .fingertips p {
   font-size: 4rem;
+}
+.footer a {
+  color: white;
+  margin: 4rem;
+  margin-top: 4rem;
+  
+  
+}
+footer {
+  border:3px solid black;
+  height: 10rem;
+}
+.footer {
+  margin-top: 4rem;
+  text-align: center;
 }
