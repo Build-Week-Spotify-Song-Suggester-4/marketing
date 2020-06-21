@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+    <!--Bootstrap CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--CSS Stylesheet-->
     <link rel="stylesheet" href="css/index.css">
     
     
@@ -12,70 +15,77 @@
     <title>Home Page</title>
 </head>
 <body>
-  
-    
-    <nav class="navbar sticky-top navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Home</a>
-            <a class="navbar-brand" href="aboutus.html">About Us</a>
-            <h2>Spotify</h2>
-            <a class="navbar-brand" href="#">Log In</a>
-            <a class="navbar-brand" href="#">Sign Up</a>
-        </div>
-    </nav>
-    
-    <div class="container-fluid header-container">
-        <h1>Spotify Song Suggester</h1>
-        <h3>Our Mission</h3>
-        <p>To provide a music discovery service that exceeds the service provided by pandora</p>
-        
-        
-        
-    </div>
-    <div class="container-fluid content1">
-        <div class="row">
-            <div class="col container-fluid firstcolor">
-                <h2>Discover</h2>
-                <p>Get ready to hear your next favorite song</p>
-                <img class="rounded mx-auto d-block" src="images/personlisteningtomusic.jpg">
-            </div> 
-        </div>
-            <div class="row">
-                <div class="col jumbotron how">
-                    <h2>How do we do it?</h2>
-                    <ul></ul>
-                        <li>By using the latest algorithms compiled by our team
-                            of engineers
-                        </li>
-                        <li>Years of researching data and analytics</li>
-                    </ul>
-                    <img class ="rounded mx-auto d-block"src="images/groupcoding.png">
-                </div>
-   
+    <header>
+        <!--Navbar-->
+        <nav class="navbar sticky-top navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <a class="navbar-brand" href="aboutus.html">About Us</a>
+                <img src="images/spotifyicon.png">
+                <a class="navbar-brand" href="#">Log In</a>
+                <a class="navbar-brand" href="#">Sign Up</a>
             </div>
-            <div class="row">
-                <div class="fingertips col jumbotron">
-                    <p class="text-center">All at the reach of your fingertips</p>
-                    <img class = "rounded mx-auto d-block"src="images/spotifycellphone.png">
-                </div>
-            </div>
-        
-        </div>
+        </nav>
 
-    </div>
+    </header>
+
+    <section>
+        <!--Header Container-->
+        <div class="container-fluid header-container">
+            <h1>Spotify Song Suggester</h1>
+            <p><span>Our Mission </span>: to provide a music discovery service that exceeds the service provided by Pandora.</p>   
+        </div>
+    </section>
+    <section>
+        
+        <div class="container-fluid content1">
+            <!--First Container--> 
+            <div class="row">
+                <div class="col container-fluid firstcolor">
+                    <h2>Discover</h2>
+                    <p>Get ready to hear your next favorite song</p>
+                    <img class="rounded mx-auto d-block" src="images/personlisteningtomusic.jpg">
+                </div> 
+            </div>
+                <!--Second Container-->
+                <div class="row">
+                    <div class="col jumbotron how">
+                        <h2>How do we do it?</h2>
+                        <ul></ul>
+                            <li>By using the latest algorithms compiled by our team
+                                of engineers
+                            </li>
+                            <li>Years of researching data and analytics</li>
+                        </ul>
+                        <img class ="rounded mx-auto d-block"src="images/groupcoding.png">
+                    </div>
+    
+                </div>
+                <!--Third Container-->
+                <div class="row">
+                    <div class="fingertips col jumbotron">
+                        <p class="text-center">All at the reach of your fingertips</p>
+                        <img class = "rounded mx-auto d-block"src="images/spotifycellphone.png">
+                    </div>
+                </div>
+            
+            </div>
+
+        </div>
+    </section>
+    <!--Footer-->  
     <footer class="container-fluid">
         <div class="container footer">
-            <a href="aboutus.html">About Us</a>
-            <a href="#">Terms</a>
-            <a href="#">Privacy</a>
-            <a href="#">Jobs</a>
-            
-            
+            <div class="row">
+                
+                <a href="aboutus.html">About Us</a>
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+                <a href="#">Jobs</a>
+                
+            </div>
+              
         </div>
-
-
-
-
 
     </footer>
 
