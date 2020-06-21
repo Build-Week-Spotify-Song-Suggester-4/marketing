@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <!--Bootstrap CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Css stylesheet-->
     <link rel="stylesheet" href="css/aboutus.css">
     
     
@@ -13,137 +16,135 @@
 </head>
 <body>
   
-    
-    <nav class="navbar sticky-top navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Home</a>
-            <a class="navbar-brand" href="aboutus.html">About Us</a>
-            <h2>Spotify</h2>
-            <a class="navbar-brand" href="#">Log In</a>
-            <a class="navbar-brand" href="#">Sign Up</a>
-        </div>
-    </nav>
-    <div class="container-fluid header">
-        <h1 class="text-center">About Us</h1>
-    
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="card-deck">
-                <div class="card" style="width: 18rem;">
-                    <img src="aboutusimages/yasmanicastanedaimage2.png" class="card-img-top" alt="Picture of Yasmani">
-                    <div class="card-body">
-                    <h5 class="card-title">Yasmani Castaneda</h5>
-                    <p class="card-text">Web Pt 19, Maker of the marketing website</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="aboutusimages/aaronyatesimage2.png" class="card-img-top" alt="Image of Aaron Yates">
-                    <div class="card-body">
-                    <h5 class="card-title">Aaron Yates</h5>
-                    <p class="card-text">Web Pt ?, Front-End Engineer</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="aboutusimages/jasonbringleimage.png" class="card-img-top" alt="Image of Jason Bringle">
-                    <div class="card-body">
-                    <h5 class="card-title">Jason Bringle</h5>
-                    <p class="card-text">Web Pt ?, Front-End Engineer</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
+    <header>
+        <!--Navbar-->
+        <nav class="navbar sticky-top navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <a class="navbar-brand" href="aboutus.html">About Us</a>
+                <img src="images/spotifyicon.png">
+                <a class="navbar-brand" href="#">Log In</a>
+                <a class="navbar-brand" href="#">Sign Up</a>
             </div>
+        </nav>
 
+    </header>
+    <section>
+        <!--About us container-->
+        <div class="container-fluid header">
+            <h1 class="text-center">About Us</h1>
         </div>
-        <div class="row">
-            <div class="card-deck">
-                <div class="card" style="width: 18rem;">
-                    <img src="aboutusimages/aaronmatsonimage.png" class="card-img-top" alt="Image of Aaron Matson">
-                    <div class="card-body">
-                    <h5 class="card-title">Aaron Matson</h5>
-                    <p class="card-text">Web Pt ?, Back-End Engineer</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+    </section>
+
+    <section>
+        <div class="container-fluid background">
+            <!--First Row of Cards-->
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card" style="width: 18rem;">
+                        <img src="aboutusimages/yasmanicastanedaimage2.png" class="card-img-top" alt="Picture of Yasmani">
+                        <div class="card-body">
+                        <h5 class="card-title">Yasmani Castaneda</h5>
+                        <p class="card-text">Maker of the marketing website</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="aboutusimages/aaronyatesimage2.png" class="card-img-top" alt="Image of Aaron Yates">
+                        <div class="card-body">
+                        <h5 class="card-title">Aaron Yates</h5>
+                        <p class="card-text">Front-End Engineer</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="aboutusimages/jasonbringleimage.png" class="card-img-top" alt="Image of Jason Bringle">
+                        <div class="card-body">
+                        <h5 class="card-title">Jason Bringle</h5>
+                        <p class="card-text">Front-End Engineer</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="aboutusimages/sarareidyimage.png" class="card-img-top" alt="Image of Sara Reidy">
-                    <div class="card-body">
-                    <h5 class="card-title">Sara Reidy</h5>
-                    <p class="card-text">Team Lead, makes the moves and calls the shots</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="aboutusimages/rowaishannaimage.png" class="card-img-top" alt="Image of Rowais Hanna">
-                    <div class="card-body">
-                    <h5 class="card-title">Rowais Hanna</h5>
-                    <p class="card-text">Data Scientist</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
+
             </div>
+            <!--Second Row of Cards-->
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card" style="width: 18rem;">
+                        <img src="aboutusimages/aaronmatsonimage.png" class="card-img-top" alt="Image of Aaron Matson">
+                        <div class="card-body">
+                        <h5 class="card-title">Aaron Matson</h5>
+                        <p class="card-text">Back-End Engineer</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="aboutusimages/sarareidyimage.png" class="card-img-top" alt="Image of Sara Reidy">
+                        <div class="card-body">
+                        <h5 class="card-title">Sara Reidy</h5>
+                        <p class="card-text">Team Lead, makes the moves and calls the shots</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="aboutusimages/rowaishannaimage.png" class="card-img-top" alt="Image of Rowais Hanna">
+                        <div class="card-body">
+                        <h5 class="card-title">Rowais Hanna</h5>
+                        <p class="card-text">Data Scientist</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
 
-        </div>
-        <div class="row">
-            <div class="card-deck">
-                <div class="card" style="width: 18rem;">
-                    <img src="aboutusimages/nathandowimage.png" class="card-img-top" alt="Image of Nathan Dow">
-                    <div class="card-body">
-                    <h5 class="card-title">Nathan Dow</h5>
-                    <p class="card-text">Data Scientist</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="aboutusimages/adrianduplessisimage.png" class="card-img-top" alt="Image of Adrian Du Plessis">
-                    <div class="card-body">
-                    <h5 class="card-title">Adrian Du Plessis</h5>
-                    <p class="card-text">Data Scientist</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="aboutusimages/zacherymoyimage2.png" class="card-img-top" alt="Image of Zachary Moy">
-                    <div class="card-body">
-                    <h5 class="card-title">Zachary Moy</h5>
-                    <p class="card-text">Data Scientist</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
             </div>
-    
-              
-            
-        </div>
-
-
-
-
-
-    </div>
-    
-
+            <!--Third row of Cards-->
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card" style="width: 18rem;">
+                        <img src="aboutusimages/nathandowimage.png" class="card-img-top" alt="Image of Nathan Dow">
+                        <div class="card-body">
+                        <h5 class="card-title">Nathan Dow</h5>
+                        <p class="card-text">Data Scientist</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="aboutusimages/adrianduplessisimage.png" class="card-img-top" alt="Image of Adrian Du Plessis">
+                        <div class="card-body">
+                        <h5 class="card-title">Adrian Du Plessis</h5>
+                        <p class="card-text">Data Scientist</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="aboutusimages/zacherymoyimage2.png" class="card-img-top" alt="Image of Zachary Moy">
+                        <div class="card-body">
+                        <h5 class="card-title">Zachary Moy</h5>
+                        <p class="card-text">Data Scientist</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
         
- 
+            </div>
+
+        </div>
+    </section>      
+    
+    <!--Footer-->
     <footer class="container-fluid">
-        <div class="container footer">
-            <a href="index.html">Home</a>
+        <div class="row">
+            <a  href="index.html">Home</a>
             <a href="#">Terms</a>
             <a href="#">Privacy</a>
             <a href="#">Jobs</a>
-            
-            
+
         </div>
-
-
-
-
-
+   
     </footer>
 
-
+    <!--Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
