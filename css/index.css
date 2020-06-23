@@ -3,6 +3,8 @@
  
 }
 
+
+
 .container img{
   width:6rem;
   height:6rem;
@@ -14,6 +16,11 @@
   border: 0.2rem solid black;
   
 }
+
+.container a:hover{
+  text-decoration: underline;
+}
+
 
 h1{
   font-size: 5rem;
@@ -104,6 +111,10 @@ footer {
 
   height:6rem;
   
+}
+
+.footer a:hover{
+  background-color: lightcyan;
 }
 
 

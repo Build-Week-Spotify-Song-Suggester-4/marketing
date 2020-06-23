@@ -15,27 +15,24 @@
     <title>Home Page</title>
 </head>
 <body>
-    <header>
         <!--Navbar-->
-        <nav class="navbar sticky-top navbar-dark bg-dark">
+        <nav class="navbar sticky-top navbar-dark bg-dark" role="navigation">
             <div class="container">
                 <a class="navbar-brand" href="index.html">Home</a>
                 <a class="navbar-brand" href="aboutus.html">About Us</a>
-                <img src="images/spotifyicon.png">
+                <img src="images/spotifyicon.png" class="logo">
                 <a class="navbar-brand" href="#">Log In</a>
                 <a class="navbar-brand" href="#">Sign Up</a>
             </div>
         </nav>
 
-    </header>
-
-    <section>
+    <header role="banner"> 
         <!--Header Container-->
-        <div class="container-fluid header-container">
+        <div class="container-fluid header-container" role="heading" aria-level="1">
             <h1>Spotify Song Suggester</h1>
             <p><span>Our Mission </span>: to provide a music discovery service that exceeds the service provided by Pandora.</p>   
         </div>
-    </section>
+    </header>
     <section>
         
         <div class="container-fluid content1">
@@ -44,7 +41,7 @@
                 <div class="col container-fluid firstcolor">
                     <h2>Discover</h2>
                     <p>Get ready to hear your next favorite song</p>
-                    <img class="rounded mx-auto d-block" src="images/personlisteningtomusic.jpg">
+                    <img class="rounded mx-auto d-block" src="images/personlisteningtomusic.jpg" alt="Lady listening to music">
                 </div> 
             </div>
                 <!--Second Container-->
@@ -57,7 +54,7 @@
                             </li>
                             <li>Years of researching data and analytics</li>
                         </ul>
-                        <img class ="rounded mx-auto d-block"src="images/groupcoding.png">
+                        <img class ="rounded mx-auto d-block"src="images/groupcoding.png" alt="Multiple people in a business meeting discussing the project">
                     </div>
     
                 </div>
@@ -65,7 +62,7 @@
                 <div class="row">
                     <div class="fingertips col jumbotron">
                         <p class="text-center">All at the reach of your fingertips</p>
-                        <img class = "rounded mx-auto d-block"src="images/spotifycellphone.png">
+                        <img class = "rounded mx-auto d-block"src="images/spotifycellphone.png" alt="Hand holding a phone">
                     </div>
                 </div>
             
@@ -74,7 +71,7 @@
         </div>
     </section>
     <!--Footer-->  
-    <footer class="container-fluid">
+    <footer class="container-fluid" role="contentinfo">
         <div class="container footer">
             <div class="row">
                 
@@ -89,9 +86,13 @@
 
     </footer>
 
-
+    <!--Boostrap JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+    <script src="javascript/animation.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="js/scrollmagic/uncompressed/ScrollMagic.js"></script>
 </body>
 </html>
