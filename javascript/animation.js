@@ -60,12 +60,12 @@ borderRadius: "50%", ease:"bounce"});
 
 tl.from("a", {duration:0.1, opacity:0, scale: 0.3, stagger:0.25, ease:"back" });
 
-tl.from("h1", {duration:1, x:-670, ease:"expo" })
+tl.from("h1", {duration:1, x:-2000, ease:"expo" })
 
-tl.from("p", {duration:1, x:1000, ease: "expo"})
+tl.from("p", {duration:1, x:2000, ease: "expo"})
 
-tl.from(".firstcolor h2", {duration:1, x:1000, ease: "expo"})
+tl.from(".firstcolor h2", {duration:1, x:2000, ease: "expo"})
 
-tl.from(".firstcolor img", {duration:2 , x:-800, rotation:360})
+tl.from(".firstcolor img", {duration:2 , x:-2800, rotation:360})
 
-tl.from(".how img", {duration:3 , x:-800, rotation:360, ease:"bounce", delay:3});
+tl.from(".how img", {duration:3 , x:-2800, rotation:360, ease:"bounce", delay:3});
