@@ -3,11 +3,48 @@
  
 }
 
+body{
+  background-color:rgb(211, 208, 208);
+}
+
+.header-container{
+  border: 3px solid black;
+  
+}
+
+.header-image {
+  width:300px;
+  height:300px;
+  
+}
+
+h1{
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+h2{
+  font-size: 3rem;
+  color:rgb(12, 12, 12);
+}
+h3{
+  text-align: center;
+}
+
+.header-container p{
+  text-align: center;
+}
+
 a {
   font-style: italic;
 }
 .container-fluid {
-  background-color: gray;
+  background-color:turquoise;
+  
+}
+
+.firstcolor {
+  background-color:pink;
 }
 h1 {
   text-align: center;
@@ -18,10 +55,18 @@ img {
 }
 .how {
   float: right;
+  background-color:purple;
+}
+
+.fingertips{
+  background-color:pink;
+  background-image: url();
 }
 .fingertips p {
   font-size: 4rem;
 }
+
+
 .footer a {
   color: white;
   margin: 4rem;
@@ -30,10 +75,11 @@ img {
   
 }
 footer {
-  border:3px solid black;
+  border:3px solid turquoise;
   height: 10rem;
 }
 .footer {
   margin-top: 4rem;
   text-align: center;
 }
+
