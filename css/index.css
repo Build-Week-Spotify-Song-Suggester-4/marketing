@@ -1,43 +1,57 @@
 * {
- font-family: 'Noto Sans TC';
+  font-family: 'Electrolize', sans-serif;
  
 }
 
-body{
-  background-color:rgb(211, 208, 208);
+
+
+.container img{
+  width:6rem;
+  height:6rem;
+  border: 1rem solid white;
+  
 }
 
 .header-container{
-  border: 3px solid black;
+  border: 0.2rem solid black;
   
 }
 
-.header-image {
-  width:300px;
-  height:300px;
-  
+.container a:hover{
+  text-decoration: underline;
 }
+
 
 h1{
   font-size: 5rem;
   font-weight: bolder;
+  text-align: center;
 }
 
 h2{
   font-size: 3rem;
   color:rgb(12, 12, 12);
 }
+
 h3{
   text-align: center;
 }
 
 .header-container p{
   text-align: center;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+span{
+  font-size: 2rem;
+  font-style: italic;
 }
 
 a {
   font-style: italic;
 }
+
 .container-fluid {
   background-color:turquoise;
   
@@ -46,17 +60,36 @@ a {
 .firstcolor {
   background-color:pink;
 }
-h1 {
-  text-align: center;
+.firstcolor img{
+  margin-bottom: 2rem;
 }
+
+.firstcolor p{
+  font-size: 1.3rem;
+}
+
 img {
-  width: 500px;
-  height: 500px;
+  width: 32rem;
+  height: 32rem;
+  border: 1rem solid turquoise;
 }
 .how {
   float: right;
   background-color:purple;
+  color:white;
+  font-size: 1.2rem;
 }
+
+.how h2{
+  color:white;
+}
+
+.how img{
+  margin-top: 2rem;
+  width:40rem;
+  height: 30rem ;
+}
+
 
 .fingertips{
   background-color:pink;
@@ -68,18 +101,53 @@ img {
 
 
 .footer a {
-  color: white;
-  margin: 4rem;
-  margin-top: 4rem;
+  color: black;
+  margin: auto;
+  font-size: 1.3rem;
   
-  
-}
-footer {
-  border:3px solid turquoise;
-  height: 10rem;
-}
-.footer {
-  margin-top: 4rem;
-  text-align: center;
 }
 
+footer {
+
+  height:6rem;
+  
+}
+
+.footer a:hover{
+  background-color: lightcyan;
+}
+
+
+@media (max-width:800px){
+
+  footer{border:none;}
+  .footer a{
+            font-size: 1.3rem;}
+}
+
+@media (max-width: 500px){
+
+  .container h2{
+    font-size: 2rem;
+  }
+
+  img{
+    width:22rem;
+    height:22rem;
+  }
+
+  .how img{
+    width:30rem;
+    height:20rem;
+    
+  }
+
+  .footer a {
+    color: white;
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
+
+  
+
+}
