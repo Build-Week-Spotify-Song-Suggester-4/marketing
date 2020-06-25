@@ -80,4 +80,12 @@ h1{
   }
 }
 
+@media (max-width: 312px){
+  .container a{
+    font-size: 0.3rem;
+    margin:auto;
+    
+  }
+}
+
 }
